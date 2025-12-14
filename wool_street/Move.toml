@@ -1,0 +1,11 @@
+[package]
+name = "wool_street"
+version = "0.0.1"
+published-at = "0x0"
+edition = "2024.beta" 
+
+[dependencies]
+Iota = { git = "https://github.com/iotaledger/iota.git", subdir = "crates/iota-framework/packages/iota-framework", rev = "framework/testnet" }
+
+[addresses]
+wool_street = "0x0"
